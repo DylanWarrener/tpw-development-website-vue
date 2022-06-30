@@ -1,14 +1,25 @@
 <template>
-  <div class="container">
-    <p>Test</p>
+  <div id="container">
+    <Header></Header>
+    <main id="container__content">
+      <router-view></router-view>
+    </main>
+    <Footer></Footer>
   </div>
 </template>
 
 <script lang="ts">
   import { defineComponent } from 'vue';
 
+  // Components
+  import Header from '@/components/header/header.vue';
+  import Footer from '@/components/footer/footer.vue';
+
   export default defineComponent({
-    name: 'App'
+    components: {
+      Header,
+      Footer
+    }
   });
 </script>
 
@@ -19,13 +30,13 @@
     box-sizing: border-box;
   }
 
-  .container {
-    border: 1px solid red;
+  #container {
+    border: 1px solid black;
     display: flex;
     height: 100vh;
 
-    p {
-      border: 1px solid black;
+    #container__content {
+      border: 1px solid green;
     }
   }
 </style>
