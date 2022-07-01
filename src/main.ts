@@ -10,11 +10,11 @@ import App from './App.vue';
 
 // Child components
 import Home from '@/pages/home.vue';
-import Kitchens from '@/pages/kitchens.vue';
-import Bathrooms from '@/pages/Bathrooms.vue';
-import Newbuilds from '@/pages/newbuilds.vue';
-import Extensions from '@/pages/extensions.vue';
-import Refurbishments from '@/pages/refurbishments.vue';
+import Kitchens from '@/pages/kitchen.vue';
+import Bathrooms from '@/pages/bathroom.vue';
+import Newbuilds from '@/pages/newbuild.vue';
+import Extensions from '@/pages/extension.vue';
+import Refurbishments from '@/pages/refurbishment.vue';
 import Contact from '@/pages/contact.vue';
 import About from '@/pages/about.vue';
 
