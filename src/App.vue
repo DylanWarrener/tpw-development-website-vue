@@ -1,10 +1,10 @@
 <template>
   <div id="container">
-    <Header></Header>
+    <header-component />
     <main id="container__content">
       <router-view></router-view>
     </main>
-    <Footer></Footer>
+    <footer-component />
   </div>
 </template>
 
@@ -16,9 +16,10 @@
   import Footer from '@/components/footer/footer.vue';
 
   export default defineComponent({
+    name: 'App',
     components: {
-      Header,
-      Footer
+      'header-component': Header,
+      'footer-component': Footer
     }
   });
 </script>
@@ -31,8 +32,9 @@
   }
 
   #container {
-    border: 1px solid black;
+    border: 5px solid black;
     display: flex;
+    flex-direction: column;
     height: 100vh;
 
     #container__content {
