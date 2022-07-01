@@ -1,6 +1,6 @@
 <template>
-    <footer id="footer">
-
+    <footer id="container__footer">
+        footer
     </footer>
 </template>
 
@@ -8,12 +8,12 @@
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-
+    name: 'footer-component'
 })
 </script>
 
 <style scoped>
-    #footer {
+    #container__footer {
         border: 1px solid blue;
     }
 </style>
