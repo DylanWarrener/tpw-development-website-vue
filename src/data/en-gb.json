@@ -1,0 +1,125 @@
+{
+    "common": {
+        "text": {}
+    },
+    "header": {
+        "navigation": {
+            "links": {
+                "home": "/",
+                "kitchen": "/kitchens",
+                "bathroom": "/bathrooms",
+                "newbuild": "/newbuilds",
+                "extension": "/extensions",
+                "refurbishment": "/refurbishments",
+                "contact": "/contact",
+                "about": "/about",
+                "signin": "/signin",
+                "signout": "/signout"
+            },
+            "text": {
+                "buttons": {
+                    "home": "Home",
+                    "kitchen": "Kitchens",
+                    "bathroom": "Bathrooms",
+                    "newbuild": "Newbuilds",
+                    "extension": "Extensions",
+                    "refurbishment": "Refurbishments",
+                    "contact": "Contact",
+                    "about": "About",
+                    "signin": "Sign in",
+                    "signout": "Sign out"
+                }
+            }
+        }
+    },
+    "home": {
+        "headings": {},
+        "subheadings": {},
+        "paragraphs": {},
+        "text": {
+            "buttons": {},
+            "placeholders": {}
+        },
+        "tooltips": {}
+    },
+    "kitchen": {
+        "headings": {},
+        "subheadings": {},
+        "paragraphs": {},
+        "text": {
+            "buttons": {},
+            "placeholders": {}
+        },
+        "tooltips": {}
+    },
+    "bathroom": {
+        "headings": {},
+        "subheadings": {},
+        "paragraphs": {},
+        "text": {
+            "buttons": {},
+            "placeholders": {}
+        },
+        "tooltips": {}
+    },
+    "newbuild": {
+        "headings": {},
+        "subheadings": {},
+        "paragraphs": {},
+        "text": {
+            "buttons": {},
+            "placeholders": {}
+        },
+        "tooltips": {}
+    },
+    "extension": {
+        "headings": {},
+        "subheadings": {},
+        "paragraphs": {},
+        "text": {
+            "buttons": {},
+            "placeholders": {}
+        },
+        "tooltips": {}
+    },
+    "refurbishment": {
+        "headings": {},
+        "subheadings": {},
+        "paragraphs": {},
+        "text": {
+            "buttons": {},
+            "placeholders": {}
+        },
+        "tooltips": {}
+    },
+    "contact": {
+        "headings": {},
+        "subheadings": {},
+        "paragraphs": {},
+        "text": {
+            "buttons": {},
+            "placeholders": {}
+        },
+        "tooltips": {}
+    },
+    "about": {
+        "headings": {},
+        "subheadings": {},
+        "paragraphs": {},
+        "text": {
+            "buttons": {},
+            "placeholders": {}
+        },
+        "tooltips": {}
+    },
+    "footer": {
+        "headings": {},
+        "subheadings": {},
+        "paragraphs": {},
+        "text": {
+            "buttons": {},
+            "placeholders": {}
+        },
+        "tooltips": {}
+    }
+}
