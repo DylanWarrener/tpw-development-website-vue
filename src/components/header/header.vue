@@ -1,6 +1,7 @@
 <template>
     <header id="container__header">
-        <navigation-component />
+        <navigation-logo />
+        <navigation-content />
     </header>
 </template>
 
@@ -8,12 +9,23 @@
 import { defineComponent } from 'vue';
 
 // Components
-import Navigation from '@/components/navigation/navigation.vue';
+import NavigationLogo from '@/components/navigation/logo.vue';
+import NavigationContent from '@/components/navigation/navigation.vue';
 
 export default defineComponent({
     name: 'header-component',
     components: {
-        'navigation-component': Navigation
+        'navigation-logo': NavigationLogo,
+        'navigation-content': NavigationContent
     }
 })
 </script>
+
+<style scoped>
+    #container__header {
+        background-color: grey;
+        display: flex;
+        position: relative;
+        max-height: 10vh;
+    }
+</style>

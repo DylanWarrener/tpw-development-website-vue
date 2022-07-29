@@ -1,5 +1,5 @@
 <template>
-    <footer id="container__footer">
+    <footer id="footer">
         footer
     </footer>
 </template>
@@ -13,7 +13,8 @@ export default defineComponent({
 </script>
 
 <style scoped>
-    #container__footer {
-        border: 1px solid blue;
+    #footer {
+        border: 2px solid blue;
+        flex: 1;
     }
 </style>
